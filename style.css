@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #87CEEB; /* Sky blue background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#ui-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+  pointer-events: none;
+  z-index: 10;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #FFDE00; /* Funfair yellow */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#score-display {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #fff;
+}
